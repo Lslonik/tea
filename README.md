@@ -2,7 +2,6 @@
 
 Daily сбор трендов поисковых запросов по сортам китайского чая (Узбекистан, Google Trends).
 
-Устроено так же, как [auto-trends-uz](https://github.com/xromed/auto-trends-uz):
 `generate.py` тянет данные через `pytrends` (cat=71 «Еда и напитки», geo=UZ) и
 собирает статичный `index.html` с графиками на Chart.js. Если Google Trends
 недоступен — используются fallback-данные, чтобы сайт не падал.
